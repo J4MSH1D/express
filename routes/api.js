@@ -9,6 +9,7 @@ routes.get("/posts", async (req, res) => {
         res.send(err.message);
     }
 })
+
 // Get specific posts
 routes.get("/posts/:id", async (req, res) => {
     try {
